@@ -28,7 +28,7 @@ Passport = st.selectbox("Passport", ["Yes", "No"])
 OwnCar = st.selectbox("Owns a car", ["Yes", "No"])
 NumberOfChildrenVisiting = st.number_input("Number of children below age 5 accompanying the customer", min_value=0, max_value=3, value=1)
 Designation = st.selectbox("Designation in their current organization", ["AVP", "Executive", "Manager", "Senior Manager", "VP"])
-MonthlyIncome = st.number_input("Gross monthly income of the customer", min_value=0, max_value=100000, value=5000.0)
+MonthlyIncome = st.number_input("Gross monthly income of the customer", min_value=0, max_value=100000, value=5000)
 
 st.caption("Customer Interaction Data")
 
